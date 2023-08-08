@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- The above mentioned beans file help us to validate correct bean tags and
+         also specifies where bean tag is present
+         Since bean is created by someone and, we are using it
+    -->
+
+    <bean id="student" class="org.example.Student">
+        <property name="name" value="karthik" />
+    </bean>
+
+
+</beans>
